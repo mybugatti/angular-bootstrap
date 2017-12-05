@@ -1,0 +1,8 @@
+<div class="card card-block">
+    <h4 class="card-title">{{dt.setup}}</h4>
+    <p class="card-text"
+       [hidden]="dt.hide">{{dt.punchline}}</p>
+    <a (click)="dt.toggle()"
+       class="btn btn-warning">Tell Me
+    </a>
+</div>
